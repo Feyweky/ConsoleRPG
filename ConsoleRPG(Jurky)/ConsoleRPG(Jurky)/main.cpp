@@ -1,6 +1,6 @@
 #include "pribeh.h"
 #include "boj.h"
-#include "hogrider.h"
+
 
 
 using namespace std;
@@ -17,7 +17,7 @@ int main(void)
     cout << "Vítajte v hre, aké je vaše meno?" << endl;
     cin >> menohraca;
     cout << "Teší ma, " << menohraca << endl;
-    cout << "Si pripravený sa vyda na cestu, " << menohraca << " ?" << endl;
+    cout << "Si pripravený sa vyda na cestu ?" << endl;
     cout << "1 - áno" << endl;
     cout << "2 - nie" << endl;
     cin >> volbajeden;
@@ -65,7 +65,7 @@ int main(void)
                 cin >> volbavjaskyni;
                 if (volbavjaskyni == 1)
                 {
-                    cout << "Zhnusený tým èo si práve videl si sa vrátil spä na hlavnú cestu a pokraèoval" << endl;
+                    cout << "Radšej si sa vrátil spä na hlavnú cestu a pokraèoval" << endl;
                     goto tp1;
                 }
                 else if(volbavjaskyni == 2)

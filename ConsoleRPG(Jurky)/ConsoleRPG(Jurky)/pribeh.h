@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <ctime>
-#include "randomkuskykodu.h"
+
 
 using namespace std;
 
@@ -117,6 +117,7 @@ public:
 		cout << "Vošiel si do jaskyòe a zrazu vidíš zagrapana ako pije milionty energy drink" << endl;
 		cout << "Môžeš si trufnu is po tomto monštru alebo proste utiec, ajtak on sa z tej jaskyne nedostane" << endl;
 		cout << "____________________________________________________________________________________________" << endl;
+		//zagrapan je jeden kamarát z ktorého si robíme srandu lebo je obézny a každý deò pije energy drinky
 	}
 public:
 	void jaskyna()

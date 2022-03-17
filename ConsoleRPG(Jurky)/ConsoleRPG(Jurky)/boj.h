@@ -1,6 +1,6 @@
 #pragma once
 #include "pribeh.h"
-#include "randomkuskykodu.h"
+
 
 using namespace std;
 
@@ -15,6 +15,8 @@ public:
         int attack = 5;
         int enemyattack = 5;
         int luck = 5;
+        int heal = 100;
+        
         
         
         int hitbandit;
@@ -27,7 +29,7 @@ public:
             cin >> hitbandit;
             if (hitbandit == 1)
             {
-                hp = healing(hp, enemyattack);
+                heal = healing(hp, enemyattack);
                 enemyhp = showEnemyHp(enemyhp, attack, luck);
                 hp = showHp(hp, enemyattack, luck);
                 cout << "\nUdrel si banditu.\n";
@@ -101,6 +103,7 @@ public:
         int attack = 15;
         int enemyattack = 10;
         int luck = 5;
+        int heal = 200;
         int hitknight;
 
         do
@@ -111,7 +114,7 @@ public:
             cin >> hitknight;
             if (hitknight == 1)
             {
-                hp = healing(hp, enemyattack);
+                heal = healing(hp, enemyattack);
                 enemyhp = showEnemyHp(enemyhp, attack, luck);
                 hp = showHp(hp, enemyattack, luck);
                 cout << "\nUdrel si rytiera.\n";
@@ -155,6 +158,7 @@ public:
         int attack = 10;
         int enemyattack = 2;
         int luck = 10;
+        int heal = 25;
         int hitpig;
 
         do
@@ -165,7 +169,7 @@ public:
             cin >> hitpig;
             if (hitpig == 1)
             {
-                hp = healing(hp, enemyattack);
+                heal = healing(hp, enemyattack);
                 enemyhp = showEnemyHp(enemyhp, attack, luck);
                 hp = showHp(hp, enemyattack, luck);
                 cout << "\nUdrel si prasa.\n";
@@ -210,6 +214,7 @@ public:
         int attack = 800;
         int enemyattack = 300;
         int luck = 5;
+        int heal = 2000;
         int hitdragon;
 
         do
@@ -220,7 +225,7 @@ public:
             cin >> hitdragon;
             if (hitdragon == 1)
             {
-                hp = healing(hp, enemyattack);
+                heal = healing(hp, enemyattack);
                 enemyhp = showEnemyHp(enemyhp, attack, luck);
                 hp = showHp(hp, enemyattack, luck);
                 cout << "\nUdrel si draka.\n";
@@ -263,6 +268,7 @@ public:
         int enemyhp = 1000000;
         int attack = 1000;
         int enemyattack = 50;
+        int heal = 1000;
         int luck = 5;
 
 
@@ -276,7 +282,7 @@ public:
             cin >> hitzagrapan;
             if (hitzagrapan == 1)
             {
-                hp = healing(hp, enemyattack);
+                heal = healing(hp, enemyattack);
                 enemyhp = showEnemyHp(enemyhp, attack, luck);
                 hp = showHp(hp, enemyattack, luck);
                 cout << "\nUdrel si zagrapana.\n";

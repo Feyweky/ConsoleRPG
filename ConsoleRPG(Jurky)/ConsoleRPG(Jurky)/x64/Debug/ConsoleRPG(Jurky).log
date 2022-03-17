@@ -1,5 +1,5 @@
 ﻿  main.cpp
-C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(93): warning C4715: 'boj::healing': not all control paths return a value
-C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(74): warning C4715: 'boj::showEnemyHp': not all control paths return a value
-C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(84): warning C4715: 'boj::showHp': not all control paths return a value
+C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(95): warning C4715: 'boj::healing': not all control paths return a value
+C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(76): warning C4715: 'boj::showEnemyHp': not all control paths return a value
+C:\Users\norma\Desktop\ConsoleRPG(Jurky)\ConsoleRPG(Jurky)\boj.h(86): warning C4715: 'boj::showHp': not all control paths return a value
   ConsoleRPG(Jurky).vcxproj -> C:\Users\norma\Desktop\ConsoleRPG(Jurky)\x64\Debug\ConsoleRPG(Jurky).exe

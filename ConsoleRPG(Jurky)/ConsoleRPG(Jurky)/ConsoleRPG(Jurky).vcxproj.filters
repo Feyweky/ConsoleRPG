@@ -26,11 +26,5 @@
     <ClInclude Include="boj.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="hogrider.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="randomkuskykodu.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

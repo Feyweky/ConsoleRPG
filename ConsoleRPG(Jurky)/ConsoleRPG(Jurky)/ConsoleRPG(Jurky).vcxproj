@@ -23,9 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boj.h" />
-    <ClInclude Include="hogrider.h" />
     <ClInclude Include="pribeh.h" />
-    <ClInclude Include="randomkuskykodu.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
